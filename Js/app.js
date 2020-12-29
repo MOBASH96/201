@@ -1,4 +1,3 @@
-'use strict'
 var userName=prompt("hello,what are your name please ?");
 alert("hello"+ userName+"welcome in my cv page ");
 var rndNo=Math.floor(Math.random() * 1000);
