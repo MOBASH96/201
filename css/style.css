@@ -1,0 +1,42 @@
+.img-container {
+    text-align: right;
+    float:left;
+    margin-right: 50px;
+}
+
+
+*{
+    background-color: rgb(0, 255, 98);
+}
+
+
+
+p1 { 
+    color: rgb(3, 3, 3);
+}
+p1 ul li {color: white;
+
+}
+
+h1 {     
+    background-color: rgb(0, 146, 156);
+    background-size: cover;
+border-top-width: 25px;
+    color: rgb(255, 255, 255);
+    border-top:rgb(217, 255, 0) ;
+    border-top-width: 1000px ;
+    margin-top: 0px;
+}
+h2{
+     
+    background-color:#00A398;
+    background-size: cover;
+    color: rgb(255, 255, 255);
+}
+main footer ul li  { 
+    background-color: rgb(235, 235, 235);
+    background-size: cover;
+    color: rgb(255, 255, 255);
+
+
+}
