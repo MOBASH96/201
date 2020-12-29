@@ -5,9 +5,9 @@ var rndNo=Math.floor(Math.random() * 1000);
 var check=prompt("are yor a repote, please enter this number "+ rndNo);
 
 for(var i=0;rndNo!=check;i++){
-if(rndNo===check){
-    alert|("welcome"+userName);
-}else{check=prompt("are yor a repote, please enter this number "+ rndNo)
+    if(rndNo===check){
+        alert|("welcome"+userName);
+    }else{check=prompt("are yor a repote, please enter this number "+ rndNo)
 }}
 var FQ=confirm("Do I know you ? press yes to continue");
 
@@ -54,3 +54,7 @@ if(SixQ.toLowerCase()==="y"){
     alert("thats wrong");
 }
 alert("welcome to my cv web page "+userName+"you can see it now")
+
+
+
+
