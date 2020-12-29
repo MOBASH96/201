@@ -55,5 +55,143 @@ if(SixQ.toLowerCase()==="y"){
 alert("welcome to my cv web page "+userName+"you can see it now")
 
 
+// The gusses qustions 
 
+var userScore ;
+// first  Question:
+var AnswersArray=['12','6','15'];
+var z=0;
+for(var i=0; i<6 ; i++){
+    var InputAnswer= prompt("Can you guess my number? from (1 -20)")
+    if(InputAnswer.toUpperCase() === AnswersArray[0] || InputAnswer.toUpperCase() === AnswersArray[1] || InputAnswer.toUpperCase() === AnswersArray[2]){
+        z++; userScore ++;
+        if (z===3) {
+           i=6;
+          
+        }
+         alert('Correct! Let`s try another one');
+         
+    }else {
+        alert('Not Correct! I`ll give you another try!');
+    }
+}
+alert("My favorite languages are:" + AnswersArray);
 
+// Scand Question:
+var AnswersArray=['BM','Mercedes','Audi'];
+var z=0;
+for(var i=0; i<6 ; i++){
+    var InputAnswer= prompt("Can you guess my favorite car compeny ?")
+    if(InputAnswer.toUpperCase() === AnswersArray[0] || InputAnswer.toUpperCase() === AnswersArray[1] || InputAnswer.toUpperCase() === AnswersArray[2]){
+        z++; userScore ++;
+        if (z===3) {
+           i=6;
+           userScore ++;
+        }
+         alert('Correct! Let`s try another one');
+         
+    }else {
+        alert('Not Correct! I`ll give you another try!');
+    }
+}
+alert("My favorite languages are:" + AnswersArray);
+
+// Third Question:
+var AnswersArray=['23','24'];
+var z=0;
+for(var i=0; i<6 ; i++){
+    var InputAnswer= prompt("Can you guess my  approxmate  age ?")
+    if(InputAnswer.toUpperCase() === AnswersArray[0] || InputAnswer.toUpperCase() === AnswersArray[1] || InputAnswer.toUpperCase() === AnswersArray[2]){
+        z++; userScore ++;
+        if (z===3) {
+           i=6;
+           userScore ++;
+        }
+         alert('Correct! Let`s try another one');
+         
+    }else {
+        alert('Not Correct! I`ll give you another try!');
+    }
+}
+alert("My favorite languages are:" + AnswersArray);
+
+// fourth Question:
+var AnswersArray=['173','174'];
+var z=0;
+for(var i=0; i<6 ; i++){
+    var InputAnswer= prompt("Can you guess my  approxmate  hight ?")
+    if(InputAnswer.toUpperCase() === AnswersArray[0] || InputAnswer.toUpperCase() === AnswersArray[1] || InputAnswer.toUpperCase() === AnswersArray[2]){
+        z++; userScore ++;
+        if (z===3) {
+           i=6;
+           userScore ++;
+        }
+         alert('Correct! Let`s try another one');
+         
+    }else {
+        alert('Not Correct! I`ll give you another try!');
+    }
+}
+alert("My favorite languages are:" + AnswersArray);
+
+// fivth Question:
+var AnswersArray=['86','87'];
+var z=0;
+for(var i=0; i<6 ; i++){
+    var InputAnswer= prompt("Can you guess my  approxmate  weight ?")
+    if(InputAnswer.toUpperCase() === AnswersArray[0] || InputAnswer.toUpperCase() === AnswersArray[1] || InputAnswer.toUpperCase() === AnswersArray[2]){
+        z++; userScore ++;
+        if (z===3) {
+           i=6;
+           userScore ++;
+        }
+         alert('Correct! Let`s try another one');
+         
+    }else {
+        alert('Not Correct! I`ll give you another try!');
+    }
+}
+alert("My favorite languages are:" + AnswersArray);
+
+// Sixth Question:
+var AnswersArray=['92.6','93'];
+var z=0;
+for(var i=0; i<6 ; i++){
+    var InputAnswer= prompt("Can you guess my  approxmate  high school mark ?")
+    if(InputAnswer.toUpperCase() === AnswersArray[0] || InputAnswer.toUpperCase() === AnswersArray[1] || InputAnswer.toUpperCase() === AnswersArray[2]){
+        z++; userScore ++;
+        if (z===3) {
+           i=6;
+           userScore ++;
+        }
+         alert('Correct! Let`s try another one');
+        
+    }else {
+        alert('Not Correct! I`ll give you another try!');
+    }
+}
+alert("My favorite languages are:" + AnswersArray);
+
+// Seventh Question:
+var AnswersArray=['3.15','3.2'];
+var z=0;
+for(var i=0; i<6 ; i++){
+    var InputAnswer= prompt("Can you guess my  approxmate  BA GPA ( Out of 4)  ?")
+    if(InputAnswer.toUpperCase() === AnswersArray[0] || InputAnswer.toUpperCase() === AnswersArray[1] || InputAnswer.toUpperCase() === AnswersArray[2]){
+        z++; userScore ++;
+        if (z===3) {
+           i=6;
+           userScore ++;
+        }
+         alert('Correct! Let`s try another one');
+         
+    }else {
+        alert('Not Correct! I`ll give you another try!');
+    }
+}
+alert("My favorite languages are:" + AnswersArray);
+
+alert("Good Job!... You got " + userScore + " correct answers!")
+// console.log("Your final score is " + userScore");
+alert("Thank you for your time " + userName + ".");
+// console.log("Thank you for your time " + userName + ".");
